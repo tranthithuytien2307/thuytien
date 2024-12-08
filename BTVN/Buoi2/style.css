@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto; 
+    padding: 0; 
+    text-align: justify; 
+    margin-left: 24px;
+    margin-right: 24px; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+}
+.social-icons {
+    margin-right: 60px;
+    display: flex;
+    gap: 10px;
+    float: right;
+    width: 25px; 
+    height: 25px;
+    border-radius: 50%;
+}
+.profile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 50px; 
+}
+.profile-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.information{
+    display: flex;
+    align-items: stretch;
+}
+.information-right{
+    margin-top:70px;
+    margin-left: 50px;
+    flex-grow: 1;
+}
+.information-letter{
+    margin-top: 50px;
+    font-size: 51px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.stats{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.stat{
+    margin-right:50px;
+}
+.section {
+    border-bottom: 3px solid rgb(238, 106, 91);
+    Width: max-content;
+}
+.download{
+    margin:auto;
+    border: 2px solid rgb(238, 106, 91);
+    color:rgb(238, 106, 91);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 12px;
+    text-align:center;
+    width:180px;
+}
+.section-skill{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.section-each-skill{
+    width: 50%;
+    padding: 20px;
+}
+.skill{
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 40px;
+    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.skill-bottom{
+    margin-top: 35px;
+    padding-top: 15px;
+}
+
+
