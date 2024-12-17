@@ -1,0 +1,68 @@
+*{
+    background-color: #090b41;
+    color: white;
+    font-size: 20px;
+}
+.site-header{
+    background-color: back;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 30px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+.each-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; 
+    margin: 30px; 
+}
+.small-part{
+    margin: 5px;
+    padding: 5px;
+}
+.button {
+    border: 1px solid #9e9e9f;
+    color: rgb(95, 95, 95);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 3px 5px;
+    height: 25px;
+    font-size: 10px;
+}
+.small-button {
+    border: 1px solid #7c7c7d;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.small-button i {
+    color: #626262;
+    font-size: 10px;
+}
+
+.small-part:hover {
+    color: #9e9e9f;
+    cursor: pointer; /* Thêm hiệu ứng con trỏ khi rê chuột */
+}
+.each-header div {
+    color: #ffffff;
+    margin-left: 5px;
+}
